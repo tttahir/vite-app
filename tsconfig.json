@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "types": ["node", "react"],
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "target": "esnext",
+    "jsx": "react-jsx",
+    "lib": ["dom", "esnext"],
+    "skipLibCheck": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["./src/**/*.ts*"],
+  "exclude": ["/node_modules", "/.*/", "build", "test", "/*.spec.ts", "/*.test.ts"]
+}
