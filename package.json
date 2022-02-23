@@ -42,7 +42,7 @@
     "vite": "^2.7.2"
   },
   "lint-staged": {
-    "*.{ts,tsx,scss}": "pretty-quick --staged",
+    "*.{ts,tsx,css}": "pretty-quick --staged",
     "!(*vite.config).{ts,tsx}": "eslint --ignore-pattern 'vite.config.ts' --fix --max-warnings 0"
   },
   "repository": {
