@@ -19,5 +19,14 @@
     "jsx": "react-jsx"
   },
   "include": ["./src/**/*.ts*"],
-  "exclude": ["/node_modules", "/.*/", "build", "test", "/*.spec.ts", "/*.test.ts"]
+  "exclude": [
+    "/node_modules",
+    "/.*/",
+    "build",
+    "test",
+    "/*.spec.ts",
+    "/*.test.ts",
+    "tailwind.config.js",
+    "postcss.config.js"
+  ]
 }
