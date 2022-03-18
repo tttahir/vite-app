@@ -1,3 +1,5 @@
 vite.config.ts
 tailwind.config.js
 postcss.config.js
+jest.config.ts
+babel.config.js
